@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    background-color: rgb(51, 50, 50);
+}
+
+.menu{
+    height: 50px;
+    width: 1280px;
+    background-color: rgb(9, 9, 9);
+    border-top: 1px solid blueviolet;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    float: right;
+    padding-top: 5px;
+   
+    
+}
+.menu ul li{
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.menu ul li input[type="search"]{
+    height: 28px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+.menu img{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+
+
+#lgn{
+  padding-top: 5px;
+  transition: .2s ease;
+}
+#lgn a:hover{
+    color: aqua;
+}
+#lgn a{
+    text-decoration: none;
+    color: white;
+}
+
+.hummingbird3{
+    margin: 0;
+    width: 1280px;
+    height: 290px;
+    background-color: blueviolet;
+
+}
+.hummingbird3 img{
+    margin-top: 5px;
+    width: 1280px;
+    height: 290px;
+}
+
+
+.backpng{
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+      margin-left: 1080px;
+      margin-top: -250px;
+}
+.backpng img{
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    color: white;
+    transition: .2s ease; 
+    border-radius: 50%;
+
+}
+.backpng img:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}
+.backpng h1{
+    color: white;
+    margin: 0;
+    transition: .2s ease;
+
+}
+.backpng h1 a{
+    text-decoration: none;
+    color: white;
+}
+.backpng h1 a:hover{
+    color: aqua;
+}
+
+.backpng h3{
+    margin: 0;
+    color: rgb(155, 247, 159);
+    padding-top: 20px;
+}
+.backpng h3 a{
+    text-decoration: none;
+    color: rgb(233, 241, 233);
+    transition: .2s ease;
+}
+.backpng h3 a:hover{
+    color: aqua;
+
+}
+.stories{
+    position: absolute;
+    width: 1280px;
+    height: 500px;
+    background-color: blueviolet;
+    border-bottom: .5px solid rgb(208, 205, 205);
+    margin-top: 600px;
+
+}
+.stories h1{
+
+    color: rgb(7, 247, 51);
+    margin-left: 0px;
+    padding-top: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+.stories img{
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 100px;
+    transition: 1s ease all;
+}
+.stories img:hover{
+    width: 310px;
+    height: 310px;
+}
+.stories h2{
+    margin-top: -60px;
+    margin-left: 140px;
+    color: white;
+}
+#gdbird{
+    margin-top: -20px;
+    margin-left: 570px;
+    color: white;
+}
+.stories h3{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.stories h3 a{
+    text-decoration: none;
+    color: rgb(18, 240, 18);
+    transition: .2s ease;
+    border-radius: 5px;
+}
+.stories h3 a:hover{
+    background-color: rgb(5, 127, 21);
+    color: rgb(252, 253, 254);
+}
+#golden{
+    margin-left: 650px;
+    margin-top: -20px;
+}
+#parrot{
+    margin-left: 930px;
+    margin-top: -30px;
+}
+#parot{
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+
+
+.aboutbirds{
+    position: absolute;
+    width: 1280px;
+    height: 600px;
+    background-color: blueviolet;
+   margin-top: 50px;
+
+
+}
+.aboutbirds h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.aboutbirds p{
+    padding: 40px 150px 20px 150px ;
+    text-align:center;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+
+.more{
+    margin-top: 1100px;
+    width: 1280px;
+    height: 400px;
+    background-color: rgb(1, 0, 9);
+    border-bottom: 1px solid white;
+}
+#aa{
+    color: white;
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+#aa li{
+padding: 0 100px;
+font-weight: bold;
+}
+#legal{
+    list-style: none;
+    color: white;
+    padding-left: 175px;
+    padding-top: 20px;
+}
+#legal li{
+    padding: 4px 0;
+}
+#oursites{
+    list-style: none;
+    color: white;
+    padding-left: 440px;
+    margin-top: -102px;
+}
+#oursites li{
+    padding: 4px 0;
+}
+#joinus{
+    list-style: none;
+    color: white;
+    padding-left: 720px;
+    margin-top: -235px;
+}
+#joinus li{
+    padding: 4px 0;
+}
+.more img{
+    position: absolute;
+    margin-left: 985px;
+    margin-top: -220px;
+}
+#twitter{
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: -220px;
+
+}
+.copyright{
+    height: 60px;
+    width: 1280px;
+    background-color: rgb(11, 11, 11);
+}
+.copyright img{
+    height: 45px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}

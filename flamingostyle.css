@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(144, 198, 144);
+}
+.flamingos{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.flamingos a{
+    margin-left: 500px;
+}
+.flamingos img{
+    width: 1200px;
+    height: 350px;
+    margin-top: 10px;
+    transition: 1s ease all;
+}
+.flamingos img:hover{
+    width: 1200px;
+    height: 380px;
+}
+h2{
+    padding-left: 200px;
+    padding-top: 40px;
+    color: blue;
+    border-bottom: 1px solid black;
+}
+h3{
+    margin-left: 0px;
+    color: rgb(248, 5, 207);
+    padding-top: 20px;
+}

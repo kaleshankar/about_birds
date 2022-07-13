@@ -1,0 +1,44 @@
+@charset "utf-8"
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+        width: 50%;
+        height: 90vh;
+     background-color: antiquewhite;
+        background-size: cover;
+        background-position: center;
+}
+
+
+.register h1{
+        font-size: 30px;
+        color: blue;
+        margin-left: 180px;
+}
+.form{
+    
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 60px;
+
+
+}
+.form input{
+    margin-top: 20px;
+
+}
+.btn{
+      margin-left: 150px;
+
+}
+.btn input{
+    background-color: darkblue;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    
+} 
